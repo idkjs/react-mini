@@ -1,0 +1,22 @@
+{
+  "name": "react-mini",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "dir": "src"
+    }
+  ],
+  "reason": { "react-jsx": 2 },
+  "bs-dependencies": [],
+  "bsc-flags": [ "-bs-super-errors", "-w", "-30-40" ],
+  "entries": [
+    {
+      "backend": "native",
+      "main-module": "Test"
+    },
+    {
+      "backend": "js",
+      "main-module": "Test"
+    }
+  ]
+}
